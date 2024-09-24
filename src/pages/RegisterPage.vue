@@ -4,15 +4,15 @@
         <form class="register__form text-center flex flex-col gap-10">
             <div class="register__form-item flex flex-col">
                 <label for="" class="register__form-label text-white mb-2">Электронная почта</label>
-                <input type="text" class="register__form-input bg-transparent border-b-2 border-red-400 outline-none text-white px-2 py-1" required>
+                <input type="text" class="register__form-input bg-transparent border-b-2 border-red-400 outline-none text-gray-300 px-2 py-1" required>
             </div>
             <div class="register__form-item flex flex-col">
                 <label for="" class="register__form-label text-white mb-2">Пароль</label>
-                <input type="password" class="register__form-input bg-transparent border-b-2 border-red-400 outline-none text-white px-2 py-1" required>
+                <input type="password" class="register__form-input bg-transparent border-b-2 border-red-400 outline-none text-gray-300 px-2 py-1" required>
             </div>
             <div class="register__form-item flex flex-col">
                 <label for="" class="register__form-label text-white mb-2">Повторите пароль</label>
-                <input type="password" class="register__form-input bg-transparent border-b-2 border-red-400 outline-none text-white px-2 py-1" required>
+                <input type="password" class="register__form-input bg-transparent border-b-2 border-red-400 outline-none text-gray-300 px-2 py-1" required>
             </div>
             <router-link to="/login" class="text-red-400 font-medium hover:text-red-300 transition-all">
                 У меня уже есть аккаунт
