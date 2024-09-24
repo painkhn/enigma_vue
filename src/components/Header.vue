@@ -6,7 +6,7 @@
 <template>
     <header class="header w-full min-h-20 bg-zinc-800 shadow-xl">
         <div class="header__container max-w-6xl w-full min-h-20 mx-auto my-0 grid grid-cols-3 items-center">
-          <router-link to="/home" class="header__logo">
+          <router-link to="/home" class="header__logo max-w-40">
             <img src="/img/logo.svg" alt="Logo" />
           </router-link>
           <HeaderSearch />
