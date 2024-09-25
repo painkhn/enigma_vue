@@ -2,6 +2,7 @@
     import ProfileUserInfo from '../components/ProfileUserInfo.vue'
     import ProfileCommentsForm from '../components/ProfileCommentsForm.vue'
     import ProfileCommentItem from '../components/ProfileCommentItem.vue';
+    import ProfileThemesList from '../components/ProfileThemesList.vue'
 </script>
 
 <template>
@@ -28,38 +29,7 @@
         <div class="profile__themes">
             <h2 class="profile__title text-red-400 text-xl font-bold mb-5">Темы Username</h2>
 
-            <ul class="profile__themes-list grid grid-cols-2 gap-5 text-white w-full">
-                <li class="w-full">
-                    <router-link to="/theme" class="profile__themes-item transition-all hover:text-red-400 w-full block bg-zinc-700 p-2 px-3 rounded hover:bg-zinc-900">
-                        Название темы
-                    </router-link>
-                </li>
-                <li class="w-full">
-                    <router-link to="/theme" class="profile__themes-item transition-all hover:text-red-400 w-full block bg-zinc-700 p-2 px-3 rounded hover:bg-zinc-900">
-                        Название темы
-                    </router-link>
-                </li>
-                <li class="w-full">
-                    <router-link to="/theme" class="profile__themes-item transition-all hover:text-red-400 w-full block bg-zinc-700 p-2 px-3 rounded hover:bg-zinc-900">
-                        Название темы
-                    </router-link>
-                </li>
-                <li class="w-full">
-                    <router-link to="/theme" class="profile__themes-item transition-all hover:text-red-400 w-full block bg-zinc-700 p-2 px-3 rounded hover:bg-zinc-900">
-                        Название темы
-                    </router-link>
-                </li>
-                <li class="w-full">
-                    <router-link to="/theme" class="profile__themes-item transition-all hover:text-red-400 w-full block bg-zinc-700 p-2 px-3 rounded hover:bg-zinc-900">
-                        Название темы
-                    </router-link>
-                </li>
-                <li class="w-full">
-                    <router-link to="/theme" class="profile__themes-item transition-all hover:text-red-400 w-full block bg-zinc-700 p-2 px-3 rounded hover:bg-zinc-900">
-                        Название темы
-                    </router-link>
-                </li>
-            </ul>
+            <ProfileThemesList />
         </div>
 
     </div>
