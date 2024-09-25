@@ -13,3 +13,9 @@
 
   <Footer />
 </template>
+
+<style scoped>
+  .main {
+    min-height: calc(100vh - 80px - 122px);
+  }
+</style>

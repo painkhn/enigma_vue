@@ -8,6 +8,7 @@ import HomePage from './pages/HomePage.vue'
 import LoginPage from './pages/LoginPage.vue'
 import UnregisteredUser from './pages/UnregisteredUser.vue'
 import ProfilePage from './pages/ProfilePage.vue'
+import ThemePage from './pages/ThemePage.vue'
 
 const app = createApp(App)
 
@@ -17,6 +18,7 @@ const routes = [
     { path: '/register', name: 'Register', component: RegisterPage },
     { path: '/login', name: 'Login', component: LoginPage },
     { path: '/profile', name: 'Profile', component: ProfilePage },
+    { path: '/theme', name: 'Theme', component: ThemePage },
   ]
 
 const router = createRouter({

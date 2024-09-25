@@ -1,6 +1,7 @@
 <script setup>
     import ProfileUserInfo from '../components/ProfileUserInfo.vue'
     import ProfileCommentsForm from '../components/ProfileCommentsForm.vue'
+    import ProfileCommentItem from '../components/ProfileCommentItem.vue';
 </script>
 
 <template>
@@ -20,6 +21,8 @@
         <div class="profile__comments">
             <h1 class="profile__title text-red-400 text-xl font-bold mb-5">Комментарии Username</h1>
             <ProfileCommentsForm />
+
+            <ProfileCommentItem />
         </div>
 
     </div>
