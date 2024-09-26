@@ -6,7 +6,7 @@
 </script>
 
 <template>
-    <div class="max-w-6xl h-auto p-10 bg-white dark:bg-zinc-800 rounded-md mx-auto my-0 mt-10">
+    <div class="max-w-6xl h-auto p-10 bg-white dark:bg-zinc-800 rounded-md mx-auto my-0">
         <div class="flex gap-5 mb-5">
             <img src="/img/avatar_default.jpg" alt="" class="profile__avatar w-48 h-48 rounded-md">
             <ProfileUserInfo />

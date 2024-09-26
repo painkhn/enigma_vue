@@ -4,7 +4,7 @@
 </script>
 
 <template>
-   <div class="theme bg-white dark:bg-zinc-800 max-w-6xl w-full p-5 mt-10 rounded-md mb-10">
+   <div class="theme bg-white dark:bg-zinc-800 max-w-6xl w-full p-5 rounded-md mb-10">
         <div class="p-5 border border-red-400 rounded-md">
             
             <ThemeContent />

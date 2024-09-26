@@ -1,5 +1,5 @@
 <template>
-    <div class="max-w-md w-full h-auto mx-auto my-0 mt-20">
+    <div class="max-w-md w-full h-auto mx-auto my-0 py-10">
         <h1 class="register__title text-center text-2xl text-red-400 font-bold mb-10">Регистрация</h1>
         <form class="register__form text-center flex flex-col gap-10">
             <div class="register__form-item flex flex-col">

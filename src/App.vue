@@ -8,7 +8,7 @@
 <template>
   <Header />
 
-  <main class="main max-w-6xl w-full mx-auto my-0">
+  <main class="main max-w-6xl w-full mx-auto my-0 pt-10">
 
     <router-view></router-view>
   </main>

@@ -4,7 +4,7 @@
 </script>
 
 <template>
-    <h1 class="text-2xl font-bold dark:text-white text-center py-10">ФОРУМ</h1>
+    <h1 class="text-2xl font-bold dark:text-white text-center pb-10">ФОРУМ</h1>
     <div class="max-w-6xl w-full flex">
         <MainCategories />
         <div class="flex-1"></div>
